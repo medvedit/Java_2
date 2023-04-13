@@ -1,7 +1,7 @@
-package ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Circles;
+package ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Circles;
 
-import ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Common.CommonObject;
-import ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Common.GameCanvas;
+import ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Common.CommonObject;
+import ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Common.GameCanvas;
 
 import java.awt.*;
 

@@ -1,26 +1,26 @@
-package ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Circles;
+package ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Bricks;
 
 
-import ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Common.GameCanvas;
-import ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Common.Sprite;
+import ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Common.GameCanvas;
+import ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Common.Sprite;
 
 import java.awt.*;
 import java.util.Random;
 
-public class Ball extends Sprite {
+public class Brick extends Sprite {
     private static final Random rnd = new Random();
     private final Color color;
     private float vX;
     private float vY;
 
-    public Ball() {
+    public Brick() {
         halfHeight = 20 + (float) (Math.random() * 50f);
         halfWidth = halfHeight;
         color = new Color(rnd.nextInt());
         vX = 100f + (float) (Math.random() * 200f);
         vY = 100f + (float) (Math.random() * 200f);
     }
-    Ball(int x, int y){
+    Brick(int x, int y){
         this();
         this.x = x;
         this.y = y;
@@ -48,10 +48,12 @@ public class Ball extends Sprite {
         }
 
     }
+
+
     @Override
     public void render(GameCanvas canvas, Graphics g) {
         g.setColor(color);
-        g.fillOval(
+        g.drawRect(
                 (int) getLeft(),
                 (int) getTop(),
                 (int) getWidth(),

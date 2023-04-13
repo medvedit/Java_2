@@ -1,9 +1,9 @@
 
-package ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Bricks;
+package ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Bricks;
 
-import ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Common.CommonObject;
-import ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Common.Controller;
-import ru.medwedSa.Lessen_2_Exception.ClassWork.Games.Common.GameCanvas;
+import ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Common.CommonObject;
+import ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Common.Controller;
+import ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Games.Common.GameCanvas;
 
 import javax.swing.*;
 import java.awt.*;

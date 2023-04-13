@@ -1,4 +1,4 @@
-package ru.medwedSa.Lessen_2_Exception.ClassWork.Exception;
+package ru.medwedSa.Lessen_2_Exception_add_Interface.ClassWork.Exception;
 
 /**
  * Возникающее исключение при делении на ноль.
