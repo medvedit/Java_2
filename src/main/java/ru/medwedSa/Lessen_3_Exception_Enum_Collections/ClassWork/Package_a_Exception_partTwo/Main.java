@@ -41,8 +41,8 @@ public class Main {
             System.out.println("Файл открылся");
         }
         void read() throws SQLException {
-            throw new SQLException("Невозможно прочитать файл..."); // если раскомментировать тут и...
-//            System.out.println("Файл прочитали"); // и закомментировать тут, то получим ошибку в чтении файла, но файл закроется.
+//            throw new SQLException("Невозможно прочитать файл..."); // если раскомментировать тут и...
+            System.out.println("Файл прочитали"); // и закомментировать тут, то получим ошибку в чтении файла, но файл закроется.
         }
         @Override // переопределили функцию от интерфейса Closeable
         public void close() throws IOException {
